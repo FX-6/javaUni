@@ -1,8 +1,8 @@
 public class Konto {
    private static int anzahlkonten = 0;
-   private int kontonummer;
-   private double kontostand;
-   private String inhaberIn;
+   protected int kontonummer;
+   protected double kontostand;
+   protected String inhaberIn;
 
    public Konto(String name) {
       this.kontostand = 500;
